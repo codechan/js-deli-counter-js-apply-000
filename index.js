@@ -5,8 +5,8 @@ var katzDeliLine = [];
 function takeANumber(katzDeliLine, name) {
   katzDeliLine.push(`${name}`);
     return(`Welcome, ${name}. You are number ${katzDeliLine.length} in line.`);
-    
 }
+
 
 //SECOND CODE BLOCK
 
@@ -22,6 +22,7 @@ let i = 0;
   else
     return (`Currently serving ${katzDeliLine.shift()}.`);
 }
+
 
 
 //THIRD CODE BLOCK
